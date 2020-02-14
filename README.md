@@ -5,43 +5,42 @@ i. Build a Bluetooth Android Plugin (from scratch) to communicate between androi
   - Application B should be data Receiving application from Application A  
 ii. Upload a sending data to AWS DynamoDB, while sending to Application B  
 iii. Upload a Receiving data to AWS DynamoDB, while Receiving from Application A
+<h2>
 
-
-FOR BLE without dynamoDB
--------------------------
-1)Install the app at two device
-2)Turn ON bluetooth
-3)enable DISCOVER in BOTH device
-4)click DISCOVER to REFERESH in both devices
-5)CHOOSE the pair form LIST in both devices
-6)click CONNECT in both devices
-7)CONNECTION ESTABLLISHED
+<h5><b>FOR BLE without dynamoDB</b><br>
+-----------------------------<br>
+1)Install the app at two device<br>
+2)Turn ON bluetooth<br>
+3)enable DISCOVER in BOTH device<br>
+4)click DISCOVER to REFERESH in both devices<br>
+5)CHOOSE the pair form LIST in both devices<br>
+6)click CONNECT in both devices<br>
+7)CONNECTION ESTABLLISHED<br></h5>
 --------------------------
 NOW SWITCH TO SEND MODE -APPLICATION A in one device and RECEIVER MODE IN another device
 =========================================================================================
-CLICK SEND 
-and try each other vice versa
+<h3>CLICK SEND 
+and try each other vice versa</h3>
 
 
 
 
 FOR BLE with dynamoDB
 ----------------------
-NOTE
+<h3>NOTE</h3>
 =====
 YOUR NEED TO BUILD BEFORE INSTALL
 ===================================
-1) create a dynamoDB and table
+<h5>1) create a dynamoDB and table
 for tutorial https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/SettingUp.DynamoWebService.html
 2) change awsconfiguration.JSON,transform.conf.JSON,aws-amplify......JSON to your own account
 for tutorail USE ABOVE LINK
 OR
 genearte it manually like
-like this https://github.com/awslabs/aws-sdk-android-samples/blob/master/AmazonKinesisVideoDemoApp/src/main/res/raw/awsconfiguration.json WITHOUT YOUR OWN CREDENTIAL
-                                                                                     ---------------------------
+like this https://github.com/awslabs/aws-sdk-android-samples/blob/master/AmazonKinesisVideoDemoApp/src/main/res/raw/awsconfiguration.json WITHOUT YOUR OWN CREDENTIAL<br>
+                                                                                                                                            ---------------------------
 
-3) compile and run it
-
+3) compile and run it</h5>
 
 
 

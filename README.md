@@ -32,13 +32,12 @@ FOR BLE with dynamoDB
 YOUR NEED TO BUILD BEFORE INSTALL
 ===================================
 <h5>1) create a dynamoDB and table
-for tutorial https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/SettingUp.DynamoWebService.html
+for tutorial https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/SettingUp.DynamoWebService.html<br>
 2) change awsconfiguration.JSON,transform.conf.JSON,aws-amplify......JSON to your own account
-for tutorail USE ABOVE LINK
-OR
-genearte it manually like
+for tutorail USE ABOVE LINK<br>
+OR<br>
+genearte it manually like<br>
 like this https://github.com/awslabs/aws-sdk-android-samples/blob/master/AmazonKinesisVideoDemoApp/src/main/res/raw/awsconfiguration.json WITHOUT YOUR OWN CREDENTIAL<br>
-                                                                                                                                            ---------------------------
 
 3) compile and run it</h5>
 

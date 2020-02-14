@@ -16,9 +16,9 @@ iii. Upload a Receiving data to AWS DynamoDB, while Receiving from Application A
 5)CHOOSE the pair form LIST in both devices<br>
 6)click CONNECT in both devices<br>
 7)CONNECTION ESTABLLISHED<br></h5>
---------------------------
-NOW SWITCH TO SEND MODE -APPLICATION A in one device and RECEIVER MODE IN another device
-=========================================================================================
+--------------------------<br>
+NOW SWITCH TO SEND MODE -APPLICATION A in one device and RECEIVER MODE IN another device<br>
+=====================================================================
 <h3>CLICK SEND 
 and try each other vice versa</h3>
 
